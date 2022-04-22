@@ -1,0 +1,180 @@
+var express = require("express");
+const data = require("./data");
+const fs = require("fs");
+var router = express.Router();
+
+/* GET users listing. */
+router.get("/", function (req, res, next) {
+  res.status(200).json({
+    success: {
+      status: 200,
+      message: `User 🤟🏻`,
+      data: {
+        users: [
+          {
+            id: 1,
+            first_name: "Nike",
+            last_name: "Pawels",
+            email: "npawels0@hc360.com",
+            gender: "Female",
+            ip_address: "197.221.189.136",
+          },
+          {
+            id: 2,
+            first_name: "Teena",
+            last_name: "Flecknoe",
+            email: "tflecknoe1@com.com",
+            gender: "Female",
+            ip_address: "73.3.80.182",
+          },
+          {
+            id: 3,
+            first_name: "Constantia",
+            last_name: "Mannix",
+            email: "cmannix2@discovery.com",
+            gender: "Polygender",
+            ip_address: "6.222.192.29",
+          },
+          {
+            id: 4,
+            first_name: "Cyndy",
+            last_name: "Senussi",
+            email: "csenussi3@fda.gov",
+            gender: "Female",
+            ip_address: "113.78.22.225",
+          },
+          {
+            id: 5,
+            first_name: "Helaine",
+            last_name: "Antonoyev",
+            email: "hantonoyev4@ca.gov",
+            gender: "Female",
+            ip_address: "55.223.200.31",
+          },
+          {
+            id: 6,
+            first_name: "Gerrard",
+            last_name: "Dawtre",
+            email: "gdawtre5@dion.ne.jp",
+            gender: "Male",
+            ip_address: "105.210.156.84",
+          },
+          {
+            id: 7,
+            first_name: "Rena",
+            last_name: "Rubke",
+            email: "rrubke6@baidu.com",
+            gender: "Female",
+            ip_address: "183.41.25.121",
+          },
+          {
+            id: 8,
+            first_name: "Karolina",
+            last_name: "Buffin",
+            email: "kbuffin7@telegraph.co.uk",
+            gender: "Female",
+            ip_address: "157.179.176.124",
+          },
+          {
+            id: 9,
+            first_name: "Xymenes",
+            last_name: "Silkston",
+            email: "xsilkston8@sciencedirect.com",
+            gender: "Male",
+            ip_address: "45.118.209.100",
+          },
+          {
+            id: 10,
+            first_name: "Rudolph",
+            last_name: "Ferreo",
+            email: "rferreo9@yale.edu",
+            gender: "Male",
+            ip_address: "49.4.54.66",
+          },
+          {
+            id: 11,
+            first_name: "Bibbye",
+            last_name: "Wanell",
+            email: "bwanella@domainmarket.com",
+            gender: "Female",
+            ip_address: "223.179.134.100",
+          },
+          {
+            id: 12,
+            first_name: "Matty",
+            last_name: "Cissell",
+            email: "mcissellb@github.com",
+            gender: "Male",
+            ip_address: "100.88.125.185",
+          },
+          {
+            id: 13,
+            first_name: "Herman",
+            last_name: "Barzen",
+            email: "hbarzenc@mapquest.com",
+            gender: "Male",
+            ip_address: "49.67.90.250",
+          },
+          {
+            id: 14,
+            first_name: "Maury",
+            last_name: "Hart",
+            email: "mhartd@jugem.jp",
+            gender: "Male",
+            ip_address: "145.237.27.10",
+          },
+          {
+            id: 15,
+            first_name: "Haskel",
+            last_name: "Chaddock",
+            email: "hchaddocke@theglobeandmail.com",
+            gender: "Male",
+            ip_address: "15.214.56.151",
+          },
+          {
+            id: 16,
+            first_name: "Wolfgang",
+            last_name: "Janiak",
+            email: "wjaniakf@shop-pro.jp",
+            gender: "Male",
+            ip_address: "206.12.248.92",
+          },
+          {
+            id: 17,
+            first_name: "Stuart",
+            last_name: "Elwill",
+            email: "selwillg@posterous.com",
+            gender: "Male",
+            ip_address: "24.45.131.47",
+          },
+          {
+            id: 18,
+            first_name: "Tiffi",
+            last_name: "Brock",
+            email: "tbrockh@ucla.edu",
+            gender: "Female",
+            ip_address: "91.40.231.74",
+          },
+          {
+            id: 19,
+            first_name: "Gaelan",
+            last_name: "Ingilson",
+            email: "gingilsoni@weather.com",
+            gender: "Male",
+            ip_address: "6.227.223.63",
+          },
+          {
+            id: 20,
+            first_name: "Phoebe",
+            last_name: "Lyte",
+            email: "plytej@prlog.org",
+            gender: "Female",
+            ip_address: "90.210.66.122",
+          },
+        ],
+      },
+    },
+  });
+});
+
+module.exports = router;
