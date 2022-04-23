@@ -1,7 +1,6 @@
 {
-  "name": "expris",
-  "version": "0.0.0",
-  "private": true,
+  "name": "create-expris",
+  "version": "1.0.0",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
