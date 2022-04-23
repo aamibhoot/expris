@@ -20,7 +20,7 @@
   "author": "Aami Bhoot",
   "license": "ISC",
   "repository": "aamibhoot/expris",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "bin": "./bin/cli.js",
   "scripts": {
     "start": "node app.js",
