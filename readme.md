@@ -9,7 +9,7 @@ This is a super-duper go-to starter for your next awsome project with
 - [Express Js](https://expressjs.com)
 - [Prsma ORM](https://www.prisma.io)
 
-```js
+```bash
 npx create-expris
 ```
 

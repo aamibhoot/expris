@@ -1,5 +1,8 @@
 {
   "name": "create-expris",
+  "author": "Aami Bhoot",
+  "version": "1.0.0",
+  "repository": "aamibhoot/expris",
   "description": "This is a super-duper go-to starter for your next awsome project with Express Js & Prisma ORM",
   "keywords": [
     "express",
@@ -13,14 +16,10 @@
     "rest",
     "restful",
     "router",
-    "app",
     "api",
     "cli"
   ],
-  "author": "Aami Bhoot",
   "license": "ISC",
-  "repository": "aamibhoot/expris",
-  "version": "1.0.25",
   "bin": "./bin/cli.js",
   "scripts": {
     "start": "node app.js",
