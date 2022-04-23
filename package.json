@@ -1,6 +1,6 @@
 {
   "name": "create-expris",
-  "version": "1.0.16",
+  "version": "1.0.22",
   "bin": "./bin/cli.js",
   "scripts": {
     "start": "node app.js",
@@ -27,7 +27,6 @@
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
-    "chalk-animation": "^1.6.0",
     "nodemon": "^2.0.15"
   }
 }
