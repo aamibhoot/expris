@@ -1,5 +1,25 @@
 {
   "name": "create-expris",
+  "description": "This is a super-duper go-to starter for your next awsome project with Express Js & Prisma ORM",
+  "keywords": [
+    "express",
+    "prisma",
+    "orm",
+    "web",
+    "http",
+    "helmet",
+    "rate-limit",
+    "compress",
+    "rest",
+    "restful",
+    "router",
+    "app",
+    "api",
+    "cli"
+  ],
+  "author": "Aami Bhoot",
+  "license": "ISC",
+  "repository": "aamibhoot/expris",
   "version": "1.0.23",
   "bin": "./bin/cli.js",
   "scripts": {
