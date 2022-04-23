@@ -1,6 +1,7 @@
 {
   "name": "create-expris",
   "version": "1.0.0",
+  "bin": "./bin/cli.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
@@ -22,6 +23,9 @@
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.1",
+    "nanospinner": "^1.1.0",
     "nodemon": "^2.0.15"
   }
 }
