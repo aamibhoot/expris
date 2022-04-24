@@ -41,11 +41,11 @@
     "inquirer": "^8.2.2",
     "morgan": "^1.10.0",
     "nanospinner": "^1.1.0",
-    "prisma": "^3.12.0",
     "response-time": "^2.3.2",
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
+    "prisma": "^3.12.0",
     "nodemon": "^2.0.15"
   }
 }

@@ -21,7 +21,7 @@ const cors = require("cors");
 const app = express();
 dotenv.config();
 const log = console.log;
-const appPort = process.env.EXPRIS_PORT; // Expriss Port
+const appPort = process.env.EXPRIS_PORT || 3125; // Expriss Port
 app.use(logger("dev"));
 /**
  * Init Middlewares
@@ -132,6 +132,10 @@ app.use((err, req, res, next) => {
     },
   });
 });
+
+/**
+ * Server Start
+ */
 
 app.listen(appPort, () => {
   log(

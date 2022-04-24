@@ -24,6 +24,7 @@ npx create-expris
 - Rate limit
 - Compression
 - Helmet
+- Morgan Logger
 - More cool things that idk yet
 
 <h2 align="center">
@@ -33,4 +34,5 @@ npx create-expris
 <h3 align="center">
    <a href="[Aami Bhoot](https://github.com/aamibhoot)">
     @aamibhoot 👻
+    </a>
 </h3>
