@@ -13,8 +13,14 @@ This is a super-duper go-to starter for your next awesome project with
 npx create-expris
 ```
 
- <h4 align="center"> Ships with type C port 😎</h4>
- <h4 align="center"> Headphone & Charger included 🥴</h4>
+<div align="center">
+ <h4>Ships with type C port 😎</h4>
+ <h4>Headphone & Charger included 🥴</h4>
+<img src="https://user-images.githubusercontent.com/77445154/164994666-d4dc4f40-0fb8-4d05-b14a-abe810c09f0f.png">
+
+
+<h4 align="center">Blank slate is also available 🤫</h4>
+</div>
 
 ## 🔥 Features
 
@@ -26,6 +32,7 @@ npx create-expris
 - Helmet
 - Morgan Logger
 - More cool things that idk yet
+
 
 <h2 align="center">
   Made in Bangladesh 🇧🇩
